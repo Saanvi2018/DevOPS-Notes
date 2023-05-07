@@ -1,0 +1,85 @@
+Day 1_DevOps_CIVIL Edu
+=====================================================================
+AWS Training:
+-----------------------
+Introduction to Cloud Computing, AWS Certifications, Cloud Models, Creation of AWS Account, Simple Storage Service (S3), Elastic Compute Cloud (EC2), Identity and Access Management (IAM), Virutal Private Cloud (VPC), Elastic Load Balancer (ELB), Elastic Block Storage (EBS), Elastic BeanStalk, Cloud Watch, SNS, Key Management Service, Route 53, Relational Database Service (RDS)
+AWS Class duration: 33 Days (1.5 Hours)
+
+DevOps Training:
+------------------------------
+DevOps Class duration: 35 Days (1.5 Hours)
+
+~ DevOps = Development Team + IT Operations Team
+~ In order to develop any project we need multiple teams who is responsible for the development of project.
+~ The two major teams who are going to involve in the development of a project are: Development Team & IT Operations Team
+~ Client (Ticket booking application, website) ----> Developers will write the code according to the requirements of the Client. And then the Operations team will work on it further.
+~ The code written by the developers will undergo a series of works/processes before handing over to the client.
+~ Along with the development team, we have IT operations team.
+
+Development team activities:
+----------------------------------------
+1. Understanding the client requirement
+2. Based on client requirement, developer will develop the programs (Code) using different programming languages (Python, .net, Java, Go....)
+3. Once the code is written, the Code has to be tested
+4. Keep the code in a common platform (repository) which is linked with Operations Team as well.
+
+Operations team activities:
+----------------------------------------
+1. Take the code from the repository.
+2. Set-up the infrastructure
+3. Set-up the servers/VMs (Virtual Machines)
+4. Set-up the DataBases
+5. Code is built and packaged
+6. Deploy the code into the servers
+7. Deliver the project to the client
+
+~ Once the infrastructure set-up is completed, operations team will have to take the code from the repository, where we need GIT & GITHUB
+~ After the code is taken from GITHUB Repo., as an Operational Engineer, we need to perform Build and Package, where code should be packaged as a JAR or a WAR File, where we use a Build Tool called as MAVEN.
+~ Reviewing (Testing) of code has to be done after packaging, where use a tool called as SONARQUBE.
+~ After this, we need to deploy the code into the servers/VMs. Inorder to deploy the code into the servers we will use multiple tools called as JENKINS, DOCKER.
+~ After deployment of the code, we will finally deliver the project to the client.
+
+~ DevOps is a culture/process/set of practices inorder to develop a project.
+~ By adopting DevOps culture we can deliver the projects quickly.
+
+~ In order to automate this delivery process, we are going to use some tools like Build Tools, Repo. Tools, CI-CD Tools, Containarization Tools, Archestration Tools, Code Review Tools.
+~ DevOps is used throughout the Life Cycle of a project.
+
+Software Development Life Cycle (SDLC)
+------------------------------------------------------------
+~ The process of developing and delivering a software project is called as SDLC.
+
+Phases of SDLC:
+------------------------
+1. Requirement Gatherings
+2. Requirement Analysis
+3. Design/Planning
+4. Code/Implementation
+5. Testing
+6. Deploy & Monitoring the Code
+7. Deliver the Project
+8. Maintance
+
+Methodologies to develop a project:
+------------------------------------------------
+1. Waterfall Model (Oldest)
+2. Agile Methodology (Newest)
+
+1. Waterfall Model (Oldest)
+------------------------------------
+~ It is a linear methodology to develop and deliver the project.
+~ In this model, we are going to complete the work step-by-step i.e we will move in forward direction.
+~ Requirements are fixed.
+~ Client involvment is very less
+~ Client will see the project at the end only.
+
+2. Agile Model (Latest)
+--------------------------------
+~ It is an Iterative approach - mostly followed now-a-days
+~ In this model, development and testing will happen parallely.
+~ Client involvement is very high
+~ We will deliver the project in multiple releases (Sprints)
+~ Requirements and Budget is not fixed.
+~ For every release we will take the client feedback.
+~ Using DevOps we can achieve CI & CD (Continous Integration and Continous Delivery)
+~ CI&CD can be achieved using Agile Methodology.
